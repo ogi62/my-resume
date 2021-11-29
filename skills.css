@@ -39,9 +39,6 @@ li {
     padding: 10px;
 }
 
-li:nth-child(1) {
-    margin-left: 30px;
-}
 
 li a {
     font-size: 18px;
@@ -118,18 +115,18 @@ footer {
 
 @media (max-width: 678px) {
     
-    a{
-        font-size: 12px;
+    li a{
+        font-size: 15px;
     }
 
     li {
-        padding: 6px;
+        padding: 4px;
         margin: 0px;
     }
 
     .container {
         margin: 50px 0px;
-        height: 300px;
+        height: 600px;
     }
     .skills__container {
         width: 70%;
@@ -149,5 +146,20 @@ footer {
     .skill {
         flex: 0.7;
         align-items: flex-start;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:400px) {
+
+    li a{
+        font-size: 12px;
+    }
+
+    ul {
+        justify-content: center;
     }
 }
